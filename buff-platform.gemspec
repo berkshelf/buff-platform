@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "buff-platform"
   spec.version       = Buff::Platform::VERSION
   spec.authors       = ["Jamie Winsor"]
-  spec.email         = ["reset@riotgames.com"]
+  spec.email         = ["jamie@vialstudios.com"]
   spec.description   = %q{A mixin for querying the platform running Ruby}
   spec.summary       = %q{Buff up your code with a mixin for querying the platform running Ruby}
   spec.homepage      = "https://github.com/RiotGames/buff-platform"
