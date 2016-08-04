@@ -8,7 +8,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('mswin') }
 
       it "should be true" do
-        expect(subject).to be_true
+        expect(subject).to be true
       end
     end
 
@@ -16,7 +16,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('mingw') }
 
       it "should be true" do
-        expect(subject).to be_true
+        expect(subject).to be true
       end
     end
 
@@ -24,7 +24,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('cygwin') }
 
       it "should be true" do
-        expect(subject).to be_true
+        expect(subject).to be true
       end
     end
 
@@ -32,7 +32,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('darwin11.3.0') }
 
       it "should be true" do
-        expect(subject).to be_false
+        expect(subject).to be false
       end
     end
   end
@@ -44,7 +44,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('darwin') }
 
       it "should be true" do
-        expect(subject).to be_true
+        expect(subject).to be true
       end
     end
 
@@ -52,7 +52,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('mingw') }
 
       it "should be true" do
-        expect(subject).to be_false
+        expect(subject).to be false
       end
     end
   end
@@ -64,7 +64,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('linux') }
 
       it "should be true" do
-        expect(subject).to be_true
+        expect(subject).to be true
       end
     end
 
@@ -72,7 +72,7 @@ describe Buff::Platform do
       before { RbConfig::CONFIG.stub(:[]).with('host_os').and_return('mingw') }
 
       it "should be true" do
-        expect(subject).to be_false
+        expect(subject).to be false
       end
     end
   end
