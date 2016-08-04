@@ -1,6 +1,6 @@
 # Buff::Platform
-[![Gem Version](https://badge.fury.io/rb/buff-platform.png)](http://badge.fury.io/rb/buff-platform)
-[![Build Status](https://travis-ci.org/RiotGames/buff-platform.png?branch=master)](https://travis-ci.org/RiotGames/buff-platform)
+[![Gem Version](https://badge.fury.io/rb/buff-platform.svg)](http://badge.fury.io/rb/buff-platform)
+[![Build Status](https://travis-ci.org/berkshelf/buff-platform.svg?branch=master)](https://travis-ci.org/berkshelf/buff-platform)
 
 Buff up your code with a mixin for querying the platform running Ruby
 
