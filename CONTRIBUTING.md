@@ -4,21 +4,29 @@
 
 ### Install prerequisites
 
-Install the latest version of [Bundler](http://gembundler.com)
+Install the latest version of [Bundler](http://bundler.io/)
 
-    $ gem install bundler
+```shell
+$ gem install bundler
+```
 
 Clone the project
 
-    $ git clone git://github.com/berkshelf/buff-platform.git
+```shell
+$ git clone git://github.com/berkshelf/buff-platform.git
+```
 
 and run:
 
-    $ cd buff-platform
-    $ bundle install
+```shell
+$ cd buff-platform
+$ bundle install
+```
 
 Bundler will install all gems and their dependencies required for testing and developing.
 
 ### Running unit (RSpec) tests
 
-    $ bundle exec guard start
+```shell
+$ bundle exec guard start
+```
